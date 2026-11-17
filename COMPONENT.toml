@@ -3,7 +3,7 @@ name = "SigmaOS-hunspell"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "hunspell component"
+description = "SigmaOS SigmaOS-hunspell component"
 upstream = []
 
 [contract]
