@@ -1,12 +1,15 @@
 [package]
-name = "sigmaos_hunspell"
+name = "SigmaOS-hunspell"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
-description = "SigmaOS hunspell component inspired by Linux Mint / Omarchy / Arch Linux."
-
-[dependencies]
+license = "Apache-2.0"
+description = "SigmaOS sigmaos_hunspell component"
 
 [lib]
 name = "sigmaos_hunspell"
 path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1"
+
+[dev-dependencies]
